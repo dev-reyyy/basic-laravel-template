@@ -27,6 +27,9 @@ class RegisterController extends Controller
 
         Auth::login($user);
 
-        return redirect()->route('dashboard.main');
+        return redirect()->route('dashboard.main')->with('toast', [
+            'type' => 'success',
+            'message' => 'Welcome! Your account has been created successfully'
+        ]);
     }
 }
