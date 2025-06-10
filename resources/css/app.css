@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "flowbite/src/themes/default";
+@import "./components.css";
 @import "./custom.css";
 
 @source "../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php";
@@ -17,57 +18,29 @@
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
 
-    --color-primary-50: #eff6ff;
-    --color-primary-100: #dbeafe;
-    --color-primary-200: #bfdbfe;
-    --color-primary-300: #93c5fd;
-    --color-primary-400: #60a5fa;
-    --color-primary-500: #3b82f6;
-    --color-primary-600: #2563eb;
-    --color-primary-700: #1d4ed8;
-    --color-primary-800: #1e40af;
-    --color-primary-900: #1e3a8a;
-}
+    /* Primary Default (Indigo) */
+    --color-primary-500: #3f51b5;
 
-@layer components {
-    .btn {
-        @apply text-white font-medium rounded-lg text-sm px-4 py-2 focus:outline-none focus:ring-4;
-    }
+    /* Tints (lighter) */
+    --color-primary-50: #e8eaf6;
+    --color-primary-100: #c5cae9;
+    --color-primary-200: #9fa8da;
+    --color-primary-300: #7986cb;
+    --color-primary-400: #5c6bc0;
 
-    .btn-primary {
-        @apply bg-blue-700 hover:bg-blue-800 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
-    }
+    /* Shades (darker) */
+    --color-primary-600: #3949ab;
+    --color-primary-700: #303f9f;
+    --color-primary-800: #283593;
+    --color-primary-900: #1a237e;
 
-    .btn-secondary {
-        @apply text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800;
-    }
+    /* Surface backgrounds for themes */
+    --surface-light: #ffffff;
+    --surface-light-alt: #f5f5f5;
+    --surface-dark: #121212;
+    --surface-dark-alt: #1e1e1e;
 
-    .btn-danger {
-        @apply bg-red-700 hover:bg-red-800 focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800;
-    }
-
-    .btn-success {
-        @apply bg-green-700 hover:bg-green-800 focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800;
-    }
-
-    .nav-item {
-        @apply block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 
-                lg:hover:bg-transparent lg:border-0 lg:p-0 dark:text-gray-400 
-                lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent 
-                dark:border-gray-700;
-    }
-
-    .nav-item-active {
-        @apply text-white rounded lg:bg-transparent dark:text-white;
-    }
-
-    .field-label {
-        @apply block mb-2 text-sm font-medium text-gray-900 dark:text-white;
-    }
-
-    .input-field {
-        @apply bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-primary-600 
-                focus:border-primary-600 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 
-                dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500;
-    }
+    /* Text on surfaces */
+    --text-on-light: #212121;
+    --text-on-dark: #fafafa;
 }

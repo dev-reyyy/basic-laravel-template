@@ -8,20 +8,20 @@
     $types = [
         'success' => [
             'icon' => 'M13.707 8.707l-4 4a1 1 0 01-1.414 0l-2-2a1 1 0 111.414-1.414L9 10.586l3.293-3.293a1 1 0 011.414 1.414z',
-            'textColor' => 'text-green-500',
-            'bgIcon' => 'bg-green-100 dark:bg-green-800',
+            'textColor' => 'text-green-100',
+            'bgIcon' => 'bg-green-800 dark:bg-green-800',
             'iconText' => 'dark:text-green-200',
         ],
         'error' => [
             'icon' => 'M13.707 12.207a1 1 0 01-1.414 1.414L10 11.414l-2.293 2.293a1 1 0 01-1.414-1.414L8.586 10 6.293 7.707a1 1 0 111.414-1.414L10 8.586l2.293-2.293a1 1 0 011.414 1.414L11.414 10l2.293 2.293z',
-            'textColor' => 'text-red-500',
-            'bgIcon' => 'bg-red-100 dark:bg-red-800',
+            'textColor' => 'text-red-100',
+            'bgIcon' => 'bg-red-800 dark:bg-red-800',
             'iconText' => 'dark:text-red-200',
         ],
         'warning' => [
             'icon' => 'M11 11a1 1 0 01-2 0V6a1 1 0 012 0v5zm-1 4a1 1 0 100-2 1 1 0 000 2z',
-            'textColor' => 'text-orange-500',
-            'bgIcon' => 'bg-orange-100 dark:bg-orange-700',
+            'textColor' => 'text-orange-100',
+            'bgIcon' => 'bg-orange-700 dark:bg-orange-700',
             'iconText' => 'dark:text-orange-200',
         ],
     ];

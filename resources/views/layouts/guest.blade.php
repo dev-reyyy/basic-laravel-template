@@ -7,9 +7,8 @@
     <title>@yield('title')</title>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 </head>
-<body>
+<body class="bg-white dark:bg-gray-900">
     <header>
         <x-navbar/>
     </header>
