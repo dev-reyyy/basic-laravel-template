@@ -1,4 +1,36 @@
 @layer components {
+    h1 {
+        @apply text-gray-900 text-4xl font-bold mb-5 dark:text-white;
+    }
+
+    h2 {
+        @apply text-gray-900 text-3xl font-semibold mb-4 dark:text-white;
+    }
+
+    h3 {
+        @apply text-gray-900 text-2xl font-semibold mb-3 dark:text-white;
+    }
+
+    h4 {
+        @apply text-gray-900 text-xl font-medium mb-2 dark:text-white;
+    }
+
+    h5 {
+        @apply text-gray-900 text-lg font-medium mb-2 dark:text-white;
+    }
+
+    h6 {
+        @apply text-gray-900 text-base font-medium mb-1 dark:text-white;
+    }
+
+    p {
+        @apply text-gray-900 text-base font-normal mb-1 dark:text-white;
+    }
+
+    .page-title {
+        @apply text-2xl font-semibold;
+    }
+
     .btn {
         @apply text-white font-medium rounded-lg text-sm px-4 py-2 focus:outline-none focus:ring-4 hover:cursor-pointer;
     }
