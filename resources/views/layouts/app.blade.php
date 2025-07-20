@@ -31,5 +31,7 @@
             @yield('content')
         </div>
     </div>
+    
+    <x-modal heading="Dynamic Modal" />
 </body>
 </html>

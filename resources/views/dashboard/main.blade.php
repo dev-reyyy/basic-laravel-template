@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content')
-    <div class="flex justify-between align-center">
+    <div class="flex justify-between items-center mb-5">
         <h1 class="page-title">Dashboard</h1>
     </div>
 

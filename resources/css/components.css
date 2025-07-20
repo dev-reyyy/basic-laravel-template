@@ -28,7 +28,7 @@
     }
 
     .page-title {
-        @apply text-2xl font-semibold;
+        @apply text-2xl font-semibold mb-0;
     }
 
     .btn {
